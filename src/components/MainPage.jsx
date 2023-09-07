@@ -8,9 +8,7 @@ export default function MainPage() {
   const options = {
     method: "GET",
     headers: {
-      accept: "application/json",
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMzU2MGZhYzAxYzA4M2EyZTQ4OGFkYmQ0NWM4OGEwNiIsInN1YiI6IjY0ZjM5YzE1M2Q0M2UwMDBhY2ZkNjljNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.SMJ64UiOaqMLola1D7hFbmwRuRhZefsGrR_BdEbH1io",
+      accept: "application/json"
     },
   };
   const [movieTitle, setMovieTitle] = useState("");
